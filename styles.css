@@ -1,0 +1,36 @@
+img {
+  width: 450px;
+}
+
+.carousel-container{
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+
+.carousel-slide{
+  display: flex;
+}
+.carousel-slide img{
+  width: 100%;
+  display: none;
+}
+.carousel-slide img:first-child{
+  display: block;
+}
+.carousel-dots{
+  text-align: center;
+  margin-top: 20px;
+}
+.carousel-dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.carousel-dot.active{
+  background-color: #717171;
+}
