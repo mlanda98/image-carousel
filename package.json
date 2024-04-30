@@ -1,5 +1,5 @@
 {
-  "name": "image-carousel",
+  "name": "@mlanda98/image-carousel",
   "version": "1.0.0",
   "description": "This generates an image carousel using html, css, and js",
   "main": "index.js",
@@ -11,4 +11,3 @@
   "devDependencies": {
     "webpack-cli": "^5.1.4"
   }
-}
